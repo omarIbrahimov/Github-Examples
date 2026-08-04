@@ -1,4 +1,4 @@
-name: example-workflow
+name: example-workflow-CONDITIONALS
 on: [push]
 jobs:
   hello-world:
