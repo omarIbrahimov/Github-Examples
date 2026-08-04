@@ -6,7 +6,6 @@ jobs:
     my-context:
         runs-on: ubuntu-latest
         steps:
-
             - name: "First Step"
                 run:
                     echo "Hello World! $MY_ACTION"
