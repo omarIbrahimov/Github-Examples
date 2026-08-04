@@ -1,0 +1,14 @@
+name: "Context Script"
+
+on: ["push"]
+
+jobs:
+    my-context:
+        runs-on: ubuntu-latest
+        steps:
+
+            - name: "First Step"
+                run:
+                    echo "Hello World! $MY_ACTION"
+                env:
+                    MY_ACTION: ${{ github.action }}
