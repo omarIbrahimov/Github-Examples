@@ -9,5 +9,7 @@ jobs:
             - name: "First Step"
               run:
                 echo "Hello World! $MY_ACTION"
+                echo "The Big boss is $MY_ACTOR"
               env:
                 MY_ACTION: ${{ github.action }}
+                MY_ACTOR: ${{ github.actor }}
